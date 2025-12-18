@@ -1,7 +1,6 @@
 # 🎬 Movie Mania
 
 A sleek, responsive React web app to browse, search, and favorite movies using the [TMDB API](https://www.themoviedb.org/).  
-Crafted with ❤️ using modern React, beautiful UI, and clean code structure.
 
 ---
 
@@ -9,7 +8,7 @@ Crafted with ❤️ using modern React, beautiful UI, and clean code structure.
 
 - 🔍 **Search for Movies** – Live search using TMDB’s powerful movie database.
 - 🧭 **Filter by Genre** – Browse movies by categories like Action, Comedy, Horror, etc.
-- 🎠 **Trending Carousel** – A hero slider of trending movies for that Netflix feel.
+- 🎠 **Carousel** – A hero slider of trending movies for that Netflix feel.
 - ⭐ **Top Rated / Trending Filters** – One-click movie filtering.
 - ❤️ **Favorites List** – Add/remove your favorite movies (saved in localStorage).
 - 🖼️ **Responsive UI** – Clean, responsive layout for desktop and mobile.
@@ -45,9 +44,10 @@ Crafted with ❤️ using modern React, beautiful UI, and clean code structure.
 
 ---
 
-##Install dependencies
+## Install dependencies
 npm install
 
+---
 ## Add your TMDB API Key
 
 Create a .env file in the root:
@@ -59,5 +59,6 @@ Or directly add your API key in api.js (for simplicity):
 
 const API_KEY = "your_api_key_here";
 
+---
 ## Start the dev server
 npm run dev
